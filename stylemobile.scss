@@ -1,0 +1,97 @@
+@import "variablesmobile";
+
+@media (max-width: 458px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .dess {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .retour {
+    width: 10%;
+  }
+
+  .catégories {
+    font-size: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+
+    overflow: visible;
+    overflow-y: visible;
+  }
+  .range {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid grey;
+  }
+  .tupac {
+    width: 90%;
+    margin-left: 1em;
+  }
+  .bre {
+    width: 100%;
+    height: auto;
+  }
+  .range2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ali {
+    width: 85%;
+    height: auto;
+    margin-left: 2em;
+  }
+  .ram {
+    height: 60%;
+  }
+  .range3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .range4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .range5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .range6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.texte {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  border-top: 5px solid black;
+}
+
+.insta {
+  width: 10%;
+}
+.mail {
+  width: 10%;
+}

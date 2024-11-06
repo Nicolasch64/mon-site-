@@ -1,0 +1,118 @@
+h1 {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.langue {
+  display: flex;
+  justify-content: end;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.catégories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: rgb(255, 255, 255);
+  border-bottom: 12px solid black;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.dessins {
+  display: flex;
+  margin-left: 2%;
+}
+.sculptures {
+  display: flex;
+  margin-right: 2%;
+}
+
+.cat1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  margin-top: 2%;
+}
+
+.blueresto {
+  margin-left: 5%;
+  width: 100%;
+}
+.divebox {
+  width: 40%;
+}
+
+.dive {
+  width: 100%;
+}
+
+.texte {
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: flex-end;
+
+  font-size: 2em;
+  margin-left: 75%;
+}
+
+.texte2 {
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: flex-end;
+  font-size: 20px;
+  font-size: 2em;
+  margin-left: 75%;
+}
+
+.bas {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.insta {
+  height: 100px;
+  width: 500px;
+}
+
+.instagram {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.mail {
+  display: flex;
+  justify-content: end;
+  height: 100px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-top: 12px solid black;
+  margin-top: 5%;
+}
