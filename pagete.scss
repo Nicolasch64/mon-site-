@@ -1,0 +1,160 @@
+/* Style global du body */
+body {
+  background-color: #e60e0e;
+  font-family: "Arial", sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* En-tête */
+header {
+  background-color: #979393;
+  color: #ff8819;
+  padding: 20px;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 10px solid #000;
+  border-top: 10px solid #000;
+}
+
+.intro {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Menu de navigation */
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+  border-top: 5px solid #000;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #080808;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+/* Section */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffcc;
+  border: 3px dashed #ff33cc;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ff3300;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  border-top: 3px solid #ff33cc;
+}
+
+/* Effet d'arrière-plan animé avec gradient */
+body {
+  background: linear-gradient(45deg, #ff0000, #ff3366, #0099ff, #33cc33);
+  background-size: 400% 400%;
+  animation: gradientAnimation 6s ease infinite;
+}
+
+/* Animation pour l'arrière-plan */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Styles pour les liens (ajouter du survol et des effets rétro) */
+a {
+  color: #00cc99;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Effet de police pixelisée */
+h1,
+h2,
+p {
+  font-family: "Courier New", monospace;
+  letter-spacing: 1px;
+}
+
+/* Conteneur de contenu centralisé */
+section {
+  width: 70%;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 5px solid #000;
+}
+
+section p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Styliser le bouton (retour) */
+button {
+  background-color: #ff3366;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6600;
+}

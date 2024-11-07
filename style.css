@@ -1,17 +1,9 @@
-/* body {
-  width: 100vw;
-}
-
-@media screen and (min-width: 780px) {
- 
-  .image {
-    width: 80%;
-    flex-direction: column:1fr;
-  }
-}
-revoir le media querie!!! je na rrive pas a changer mes dessins enc olonne */
 body {
   width: 100vw;
+}
+img {
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -103,8 +95,6 @@ h2 {
   /* background-color: red; */
 }
 
-.tup {
-}
 .tupac {
   border: 50px solid white;
   margin-left: 7em;
@@ -423,8 +413,45 @@ h2 {
   margin-bottom: 15%;
 }
 
-.mentions {
+.range7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.2em;
+  border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+  padding-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  /* background-color: yellow; */
+}
+
+.jac {
+  width: 32em;
+  height: 20em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.por {
+  width: 38em;
+  height: 26em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+footer {
   background-color: rgb(255, 255, 255);
+  margin-top: 2em;
+}
+
+.mentions {
+  color: rgb(0, 0, 0);
 
   margin-left: 1%;
   font-family: Arial, Helvetica, sans-serif;
@@ -436,23 +463,24 @@ h2 {
 .instagram {
   height: 20px;
   width: 20px;
-  margin-bottom: 3%;
-  margin-left: 20%;
+
+  margin-top: 3em;
 }
 
 .mail {
   display: flex;
   justify-content: end;
-  height: 30px;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  height: 20px;
+  margin-right: 10%;
+  margin-top: 3em;
 }
 
 footer {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: end;
+
   border-top: 5px solid black;
   margin-top: 5%;
 }

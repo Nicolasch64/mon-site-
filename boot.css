@@ -13,7 +13,7 @@ body {
 
 /* Conteneur principal du formulaire */
 .contact-form-container {
-  background-color: "255, 255, 255, 0.4";
+  background-color: 255, 255, 255, 0.4;
   border-radius: px;
   border: 3px solid black;
   padding: 40px;
@@ -31,7 +31,7 @@ body {
 /* Titre du formulaire */
 h2 {
   font-size: 32px;
-  color: #333;
+  color: #000000;
   text-align: center;
   font-weight: 600;
   margin-bottom: 30px;
@@ -47,7 +47,7 @@ textarea {
   border: 2px solid #ddd;
   border-radius: 8px;
   font-size: 16px;
-  color: #333;
+  color: #d40d0d;
   background-color: #fafafa;
   transition: border-color 0.3s ease;
   box-sizing: border-box;
@@ -66,7 +66,7 @@ textarea:focus {
 label {
   font-size: 14px;
   font-weight: bold;
-  color: #555;
+  color: #000000;
   display: block;
   margin-bottom: 8px;
 }
@@ -127,4 +127,15 @@ a:hover {
 .instagram {
   margin-bottom: 10em;
   margin-left: 5em;
+}
+
+@media (min-width: 600px) {
+  .contact-form-container {
+    max-width: 600px;
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
 }

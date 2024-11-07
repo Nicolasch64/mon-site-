@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* Style général du body */
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.purchase-form-container {
+  background-color: 255, 255, 255, 0.6;
+  border-radius: 10px;
+  border: 4px solid black;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* Style des groupes de formulaire (espacement entre les champs) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style des labels */
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Style des champs de saisie (input, select, textarea) */
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+/* Style de focus sur les champs */
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+select:focus,
+textarea:focus {
+  border-color: #009688;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Style pour le bouton de soumission */
+button {
+  background-color: #ffffff;
+  color: rgb(255, 4, 4);
+  padding: 14px 20px;
+  border: none;
+  border-radius: 2px;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol du bouton */
+button:hover {
+  background-color: #34bbd3;
+  transform: translateY(-2px);
+}
+
+/* Style des messages d'erreur */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+/* Style du footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Media Queries pour tablettes et écrans plus larges */
+@media (min-width: 768px) {
+  .purchase-form-container {
+    padding: 40px;
+    max-width: 700px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  button {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=formachat.css.map */

@@ -1,59 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- <link href="boot.css" rel="stylesheet">
-
-
-</head>
-
-
-<body>
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
-
-<button type="button" class="btn btn-link">Link</button>
-
-<button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-  <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-  <span>Download</span>
-</button>
-
-
-<div class="alert alert-primary" role="alert">
-  This is a primary alert—check it out!
-</div>
-<div class="alert alert-secondary" role="alert">
-  This is a secondary alert—check it out!
-</div>
-<div class="alert alert-success" role="alert">
-  This is a success alert—check it out!
-</div>
-<div class="alert alert-danger" role="alert">
-  This is a danger alert—check it out!
-</div>
-<div class="alert alert-warning" role="alert">
-  This is a warning alert—check it out!
-</div>
-<div class="alert alert-info" role="alert">
-  This is a info alert—check it out!
-</div>
-<div class="alert alert-light" role="alert">
-  This is a light alert—check it out!
-</div>
-<div class="alert alert-dark" role="alert">
-  This is a dark alert—check it out!
-</div>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="boot.css" />
+  </head>
+  <body background="asset/photos/B022278-R1-03-4.JPG">
 
 
     
-</body>
+    <div class="contact-form-container">
+      <h2>Contactez-moi</h2>
+      <form action="/submit" method="POST">
+        <div class="form-group">
+          <label for="nom">Nom </label>
+          <input type="text" id="nom" name="nom" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Votre message :</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Écrivez votre message ici..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+
+
+
+
+
+
+
+    <footer>
+
+      <div class="mentions">
+        <h2>mentions légales</h2>
+      </div>
+
+      <div class="instagram">
+        <a href="https://www.instagram.com/chapelle.nicolas/"
+          ><img
+            src="asset/icon/iconmonstr-instagram-11.svg"
+            alt="logo insta"
+            class="insta"
+          />
+        </a>
+      </div>
+
+     
+
+    </div>
+      
+    </footer>
+  </body>
 </html>
