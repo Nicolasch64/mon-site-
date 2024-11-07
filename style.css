@@ -85,7 +85,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 3em;
+  gap: 1em;
   background-color: rgb(255, 255, 255);
   border-bottom: 5px solid rgba(169, 169, 169, 0.25);
   padding-bottom: 3em;
@@ -97,10 +97,10 @@ h2 {
 
 .tupac {
   border: 50px solid white;
-  margin-left: 7em;
+  margin-left: 1em;
   margin-top: 0.5em;
-  width: 18em;
-  height: 18em;
+  width: 21em;
+  height: 21em;
 }
 
 .texte {
