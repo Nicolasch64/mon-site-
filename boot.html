@@ -57,36 +57,31 @@
 					event.preventDefault();
 
 					const name = document.getElementById("nom").value;
-					console.log(name);
-
 					const email = document.getElementById("email").value;
 					const message = document.getElementById("message").value;
 
 					localStorage.setItem("name", name);
 					localStorage.setItem("email", email);
 					localStorage.setItem("message", message);
-
-					// displayStoredData();
 				});
 
 			function displayStoredData() {
 				const storedName = localStorage.getItem("name");
 				const storedEmail = localStorage.getItem("email");
-				const storedmessage = localStorage.getItem("message");
+				const storedMessage = localStorage.getItem("message");
 
-				if (storedName && storedEmail && storedmessage) {
-					document.getElementById("storedName").textContent = storedName;
-					document.getElementById("storedEmail").textContent = storedEmail;
-					document.getElementById("storedmessage").textContent = storedmessage;
-				} else {
-					document.getElementById("storedName").textContent =
-						"Aucune donnée enregistrée.";
-					document.getElementById("storedEmail").textContent =
-						"Aucune donnée enregistrée.";
-					document.getElementById("storedmessage").textContent =
-						"Aucune donnée enregistrée.";
+				if (storedName) {
+					document.getElementById("nom").value = storedName;
+				}
+				if (storedEmail) {
+					document.getElementById("email").value = storedEmail;
+				}
+				if (storedMessage) {
+					document.getElementById("message").value = storedMessage;
 				}
 			}
+
+			window.onload = displayStoredData;
 		</script>
 	</body>
 </html>
