@@ -13,8 +13,8 @@ document.getElementById("loadButton").addEventListener("click", function () {
 function displayBio(bio) {
 	const bioElement = document.getElementById("bio");
 	bioElement.innerHTML = `
-        <p><strong>Nom:</strong> ${bio.nom}</p>
-        <p><strong>Date de naissance:</strong> ${bio.date_naissance}</p>
+        
+        
         
         <p><strong>Description:</strong> ${bio.description}</p>
         <p><strong>parutions:</strong> ${bio.parutions}</p>

@@ -10,10 +10,22 @@
 
   <body>
     <header>
+      <div class="globenomcontainer"></div>
       <a href="http://127.0.0.1:5500/accueil.html"><h1>Chapelle Nicolas</h1></a>
       <div class="cat1"><h2>DRAWINGS</h2></div>
 
-     <i class="fa-solid fa-globe langue fa-2xl"></i>
+    
+       <i class="fa-solid fa-globe langue fa-2xl" id="choixlangue"></i>
+
+
+        <div id="languageMenu" class="language-menu">
+    <ul>
+      <li><a href="#">Fr</a></li>
+      <li><a href="#">Eng</a></li>
+    
+    </ul>
+  </div>
+  </div>
 
       
 
@@ -232,6 +244,26 @@
 
 
 
+   </script>
+   <script>
+
+    function toggleLanguageMenu() {
+	const menu = document.getElementById("languageMenu");
+	menu.classList.toggle("show");
+}
+
+const choixlangue = document.getElementById("choixlangue");
+choixlangue.addEventListener("click", () => {
+	toggleLanguageMenu();
+});
+window.addEventListener("click", (event) => {
+	if (!event.target.matches("#choixlangue")) {
+		let languagemenu = document.getElementById("languageMenu");
+		if (languagemenu.classList.contains("show")) {
+			languagemenu.classList.remove("show");
+		}
+	}
+});
    </script>
   </body>
 </html>

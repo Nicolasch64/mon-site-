@@ -6,7 +6,6 @@ a:active {
 	color: black;
 }
 
-@charset "UTF-8";
 body {
 	margin: 0;
 	padding: 0;
@@ -32,15 +31,57 @@ header {
 	border-bottom: 5px solid black;
 }
 
-.langue {
+.globenomcontainer {
 	display: flex;
+	justify-content: space-between;
+	height: 4em;
+}
+.langue {
+	/* display: flex;
 	justify-content: end;
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0; */
 
 	margin-right: 5%;
 	margin-top: 2%;
+}
+
+.language-menu {
+	display: none; /* Masquer le menu par défaut */
+	position: absolute;
+	top: 40px; /* Positionnez-le sous l'icône du globe */
+	right: 20px;
+	background-color: white;
+	border: 1px solid #000000;
+	padding: 10px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+}
+
+.language-menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.language-menu ul li {
+	padding: 8px 16px;
+}
+
+.language-menu ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+	color: rgb(0, 0, 0);
+}
+
+.language-menu ul li:hover {
+	background-color: #f0f0f0;
+}
+
+.language-menu.show {
+	display: block;
 }
 
 .catégories {
@@ -121,8 +162,8 @@ h2 {
 	border: 50px solid white;
 	margin-left: 1em;
 	margin-top: 0.5em;
-	width: 24em;
-	height: 24em;
+	width: 30em;
+	height: 30em;
 }
 
 .texte {

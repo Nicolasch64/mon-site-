@@ -1,7 +1,6 @@
 {
 	"biographie": {
 		"nom": "Chapelle Nicolas",
-		"date_naissance": "1985-01-01",
 
 		"description": "Je façonne ma démarche artistique autour de l’urbain dans sa définition la plus stricte : ce qui est relatif à la ville, ce qui lui appartient. Les agglomérations et leurs populations, l’habitat et sa sociologie, les moyens de transport, les zones pavillonnaires, les chantiers, la publicité, la pollution, les ruines, etc. Ainsi, tout ce qui compose l’architecture invisible des villes, des matériaux tels que la bâche et le grillage, m’inspire à la manière des artistes américains Oscar Tuazon ou David Hammons. Dans mes travaux de peinture, de photographie ou d’installation, j’interprète l’excès de signaux visuels et d’images dans nos villes et cela me rapproche de peintres tels que Michel Majerus, empruntant au registre d’une culture vernaculaire. La déambulation physique dans l’espace urbain a une importance majeure dans mon travail. J’utilise aussi la navigation virtuelle (Google Street View, Mappy, etc.) et ces captations d’images m’interrogent comme artiste et plus généralement : comment nous retrouver dans ces doubles du monde et leurs temporalités ? » — Nicolas Chapelle.",
 
@@ -11,12 +10,17 @@
 		{
 			"src": "asset/expo/assaut1.jpg",
 			"alt": "Photo 1",
-			"description": "Photo d'exposition à l'Assaut de la menuiserie à Saint Etienne."
+			"description": "Vue d'exposition"
 		},
 		{
 			"src": "asset/expo/assaut2.jpg",
 			"alt": "Photo 2",
-			"description": "vue d'exposition"
+			"description": "Vue d'exposition 2"
+		},
+		{
+			"src": "asset/expo/assaut3.jpg",
+			"alt": "Photo 3",
+			"description": "Vue d'exposition 3"
 		}
 	]
 }
