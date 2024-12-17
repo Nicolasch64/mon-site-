@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>choix</title>
-    <link rel="stylesheet" href="choix.css" />
+    <link rel="stylesheet" href="choixpeinture1.css" />
   </head>
 
    <body>
     <header>
-      <a href="http://127.0.0.1:5500/accueil.html"><h1>Chapelle Nicolas</h1></a>
+      <h1>Chapelle Nicolas</h1>
 
 
 
@@ -28,7 +28,7 @@
 
 
 
-      <div class="section"><a href="http://127.0.0.1:5500/index.html"><h3>DRAWINGS</h3> </a> </div>    
+      <div class="section"><h3>PAINTINGS</h3>  </div>    
 
     
 
@@ -54,7 +54,7 @@
 <div class="textim">
 <p >
 
-    "Strictly 4 My N.I.G.G.A.Z." feutre sur papier (20x20cm)2023
+    "Tijuana" Aquarelle sur papier  (20x20cm)2023
 
 
 
@@ -66,8 +66,8 @@
 
 
 
-    <div class="dess">    
-<img src="asset/dessins/2pac 2.jpg" alt="tupac" id="dess">
+    <div class="peint" alt="im" >    
+<img src="asset/peintures/1.png" alt="tij"id="peint">
 
 </div>
 
@@ -77,7 +77,7 @@
 
 <div class="prix"><p >250 euros</p></div>
 
-<a href="http://127.0.0.1:5500/formachat.html"><button type="button" class="btn">inquire</button></a>
+<button type="button" class="btn">inquire</button>
 
 
 
@@ -105,8 +105,7 @@
       </div>
 
       <div class="mail">
-        <a href="http://127.0.0.1:5500/boot.html">
-        <img src="asset/icon/email-svgrepo-com.svg" alt="mail" class="monmail" /></a>
+        <img src="asset/icon/email-svgrepo-com.svg" alt="mail" class="monmail" />
       </div>
 
     </div>
@@ -118,48 +117,32 @@
     <script >
 
 
-      const image = document.getElementById('dess');
 
-       
+
+
+
+ // Récupérer l'élément image
+        const image = document.getElementById('peint');
+console.log(image)
+        // Fonction pour activer le mode plein écran
         function openFullscreen() {
             if (image.requestFullscreen) {
                 image.requestFullscreen();
-               
-            
-    
-  }
-            
-            
-            else if (image.mozRequestFullScreen) { // Firefox
+            } else if (image.mozRequestFullScreen) { // Firefox
                 image.mozRequestFullScreen();
-
             } else if (image.webkitRequestFullscreen) { // Chrome, Safari et Opera
                 image.webkitRequestFullscreen();
             } else if (image.msRequestFullscreen) { // Internet Explorer/Edge
                 image.msRequestFullscreen();
             }
-    
+            console.log(image)
         }
 
+        // Ajouter un événement au clic de l'image
+        document.querySelector( '#peint' ).addEventListener('click', openFullscreen);
         
-        document.querySelector( '#dess' ).addEventListener('click', openFullscreen);
 
 
-
-
-             function exitFullscreen() {
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      } else if (document.mozCancelFullScreen) { // Firefox
-        document.mozCancelFullScreen();
-      } else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
-        document.webkitExitFullscreen();
-      } else if (document.msExitFullscreen) { // IE/Edge
-        document.msExitFullscreen();
-      }
-    }
-
-    document.getElementById('dess').onclick = exitFullscreen;
 
 
 

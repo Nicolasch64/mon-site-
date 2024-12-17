@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>bio</title>
+	</head>
+	<style>
+		a:link,
+		a:hover,
+		a:visited,
+		a:active {
+			text-decoration: none;
+			color: black;
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+			background-color: rgb(86, 232, 23);
+		}
+		.photo {
+			max-width: 200px;
+			margin: 10px;
+			border-radius: 10px;
+		}
+		#bio {
+			margin-bottom: 20px;
+		}
+		#photo-gallery {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		#loadButton {
+			background-color: rgb(255, 255, 255);
+			width: 20em;
+			height: 10em;
+			border: solid 2px black;
+			margin-left: 45em;
+			margin-top: 20em;
+		}
+	</style>
+	<body>
+		<h1>BIOGRAPHY</h1>
+		<div id="bio"></div>
+
+		<h2>Photo Gallery</h2>
+		<div id="photo-gallery"></div>
+
+		<button id="loadButton">Upload biography and photos</button>
+
+		<script src="bio.Js"></script>
+	</body>
+</html>

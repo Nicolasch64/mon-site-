@@ -1,69 +1,107 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulaire d'Achat - Design</title>
-    <link rel="stylesheet" href="formachat.css" />
-  </head>
-  <body background="asset/scultptures/jimmycarter.jpg">
-    <!-- Conteneur principal du formulaire -->
-    <div class="purchase-form-container">
-      <h1>Formulaire d'achat</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulaire d'Achat</title>
+		<link rel="stylesheet" href="formachat.css" />
+	</head>
+	<body background="asset/scultptures/jimmycarter.jpg">
+		<!-- Conteneur principal du formulaire -->
+		<div class="purchase-form-container">
+			<h1>Purchase Form</h1>
 
-      <form action="/submit" method="POST">
-        <div class="form-group">
-          <label for="name">Nom complet :</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Entrez votre nom"
-            required
-          />
-        </div>
+			<form action="/submit" method="POST" id="login">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Entrez votre nom"
+						required
+					/>
+				</div>
 
-        <div class="form-group">
-          <label for="email">Adresse email :</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Entrez votre email"
-            required
-          />
-        </div>
+				<div class="form-group">
+					<label for="email">Mail:</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Entrez votre email"
+						required
+					/>
+				</div>
 
-        <div class="form-group">
-          <label for="address">Adresse de livraison :</label>
-          <textarea
-            id="address"
-            name="address"
-            placeholder="Entrez votre adresse"
-            required
-          ></textarea>
-        </div>
+				<div class="form-group">
+					<label for="address">Delivery address:</label>
+					<textarea
+						id="address"
+						name="address"
+						placeholder="Entrez votre adresse"
+						required
+					></textarea>
+				</div>
 
-        <div class="form-group">
-          <label for="payment">Mode de paiement :</label>
-          <select id="payment" name="payment" required>
-            <option value="" disabled selected>
-              -- Sélectionnez un mode de paiement --
-            </option>
-            <option value="credit_card">Carte de crédit</option>
-            <option value="paypal">PayPal</option>
-            <option value="bank_transfer">Virement bancaire</option>
-          </select>
-        </div>
+				<div class="form-group">
+					<label for="payment">Payment method :</label>
+					<select id="payment" name="payment" required>
+						<option value="" disabled selected>
+							-- Sélectionnez un mode de paiement --
+						</option>
+						<option value="credit_card">Carte de crédit</option>
+						<option value="paypal">PayPal</option>
+						<option value="bank_transfer">Virement bancaire</option>
+					</select>
+				</div>
+				<div class="form-group">><button type="submit">inquire</button></div>
+			</form>
+		</div>
 
-        <div class="form-group">
-          <button type="submit">commander</button>
-        </div>
-      </form>
-    </div>
+		<footer>
+			<p></p>
+		</footer>
 
-    <footer>
-      <p></p>
-    </footer>
-  </body>
+		<script>
+			let loginForm = document.getElementById("login");
+
+			loginForm.addEventListener("submit", (e) => {
+				e.preventDefault();
+				let username = document.getElementById("name");
+				let adress = document.getElementById("adress");
+				let mail = document.getElementById("email");
+
+				if (username.value == "" || adress.value == "" || mail.value == "") {
+					alert("Ensure you input a value in  fields!");
+				} else {
+					alert("This form has been successfully submitted!");
+					console.log(
+						"This form has a username of ${username.value} and adress of ${adress.value} and mail of ${mail.value"
+					);
+
+					username.value = "";
+					adress.value = "";
+					mail.value = "";
+				}
+			});
+
+			let payForm = document.getElementById("payment");
+
+			loginForm.addEventListener("submit", (e) => {
+				e.preventDefault();
+				let payform = document.getElementById("payment");
+
+				if (payform.value == "") {
+					alert("Ensure you input a value in  field!");
+				} else {
+					// alert("le choix de paiement est complété");
+					// console.log("This form has a username of ${payform.value} ");
+
+					// payform.value = "";
+					window.location.href = "http://127.0.0.1:5500/confirmachat.html";
+				}
+			});
+		</script>
+	</body>
 </html>

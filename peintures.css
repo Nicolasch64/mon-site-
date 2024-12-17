@@ -8,7 +8,7 @@ a:active {
 
 body {
 	width: 100vw;
-	
+}
 img {
 	width: 100%;
 	height: 100%;
@@ -19,7 +19,6 @@ h1 {
 	font-size: 3em;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-left: 2%;
-
 	width: 9em;
 }
 
@@ -102,16 +101,15 @@ h2 {
 	padding-bottom: 3em;
 	margin-left: 1em;
 	margin-right: 1em;
+	height: 30em;
 
 	/* background-color: red; */
 }
-
-.tupac {
-	border: 50px solid white;
-	margin-left: 1em;
-	margin-top: 0.5em;
-	width: 30em;
-	height: 30em;
+.o {
+	width: 40em;
+	height: 15em;
+	margin-left: 2em;
+	margin-top: 1em;
 }
 
 .texte {
@@ -119,12 +117,13 @@ h2 {
 	font-weight: bold;
 	align-content: flex-end;
 	font-size: 0.75em;
-	margin-left: 70%;
+	margin-left: 60%;
+	width: 25em;
 }
 
 .bre {
-	width: 42em;
-	height: 35em;
+	width: 41em;
+	height: 25em;
 	margin-left: 1em;
 	margin-top: 1em;
 }
@@ -135,6 +134,8 @@ h2 {
 	justify-content: end;
 	font-size: 0.75em;
 	margin-left: 75%;
+	width: 25em;
+	margin-left: 60%;
 }
 
 .range2 {
@@ -155,9 +156,9 @@ h2 {
   height: 30em;
 } */
 
-.alien3 {
+.blueresto {
 	width: 44em;
-	height: 28em;
+	height: 33em;
 	margin-left: 1em;
 	margin-top: 1em;
 	border: 2px solid black;
@@ -167,7 +168,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 62%;
+	width: 25em;
 }
 
 /* .ram {
@@ -177,9 +179,9 @@ h2 {
   margin-right: 8em;
 } */
 
-.backyard {
+.ram {
 	width: 30em;
-	height: 45em;
+	height: 35em;
 	margin-right: 3em;
 	margin-left: 1em;
 	margin-top: 1em;
@@ -191,7 +193,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 35%;
+	width: 25em;
+	margin-left: 40%;
 }
 
 .range3 {
@@ -225,7 +228,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 65%;
+	width: 20em;
 }
 /* .cab {
   background-color: rgb(214, 214, 214);
@@ -235,7 +239,7 @@ h2 {
 
 .cabane {
 	width: 38em;
-	height: 30em;
+	height: 35em;
 	margin-right: 1em;
 	margin-left: 1em;
 	margin-top: 1em;
@@ -248,7 +252,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 55%;
+	width: 35em;
 }
 
 .range4 {
@@ -260,7 +265,6 @@ h2 {
 	padding-bottom: 3em;
 	margin-left: 1em;
 	margin-right: 1em;
-	/* background-color: aquamarine; */
 }
 
 /* .cad {
@@ -270,8 +274,8 @@ h2 {
 } */
 
 .cadillac {
-	width: 36em;
-	height: 26em;
+	width: 39em;
+	height: 32em;
 	margin-right: 1em;
 	margin-left: 1em;
 	margin-top: 1em;
@@ -284,7 +288,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 65%;
+	width: 20em;
 }
 
 /* .can {
@@ -294,8 +299,8 @@ h2 {
 } */
 
 .canoe {
-	width: 40em;
-	height: 29em;
+	width: 32em;
+	height: 39em;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-top: 1em;
@@ -308,8 +313,9 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 55%;
 	margin-bottom: 2.5em;
+	width: 25em;
 }
 
 .range5 {
@@ -344,7 +350,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 60%;
+	width: 25em;
 }
 
 /* .day {
@@ -368,7 +375,7 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 52%;
 	margin-bottom: 15%;
 }
 
@@ -385,8 +392,8 @@ h2 {
 }
 
 .coven {
-	width: 40em;
-	height: 28em;
+	width: 32em;
+	height: 38em;
 	margin-left: 1em;
 	margin-right: 2em;
 	margin-top: 1em;
@@ -399,7 +406,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 53%;
+	width: 25em;
 	margin-bottom: 15%;
 }
 
@@ -418,7 +426,8 @@ h2 {
 	font-weight: bold;
 	justify-content: end;
 	font-size: 0.75em;
-	margin-left: 75%;
+	margin-left: 55%;
+	width: 25em;
 	margin-bottom: 15%;
 }
 
@@ -436,17 +445,17 @@ h2 {
 
 .jac {
 	width: 32em;
-	height: 20em;
+	height: 40em;
 	margin-right: 1em;
 	margin-left: 1em;
-	margin-top: 1em;
+
 	border: 2px solid black;
 	padding: 1em;
 }
 
 .por {
 	width: 38em;
-	height: 26em;
+	height: 32em;
 	margin-right: 1em;
 	margin-left: 1em;
 	margin-top: 1em;
@@ -493,10 +502,3 @@ footer {
 	border-top: 5px solid black;
 	margin-top: 5%;
 }
-
-/* @media (min-width: 600px) and (max-width: 1024px) {
-  .image {
-    width: 100%;
-    float: none;
-  }
-} */

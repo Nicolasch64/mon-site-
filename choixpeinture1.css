@@ -5,6 +5,7 @@ body {
 	box-sizing: border-box;
 	line-height: inherit;
 	color: inherit;
+	font: inherit;
 }
 
 img {
@@ -53,30 +54,41 @@ header {
 	margin-right: 2%;
 }
 
+.catégories {
+	display: flex;
+	justify-content: center;
+	margin-right: 5%;
+	background-color: yellow;
+}
+
 h2 {
 	font-size: 2em;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
+/* 
 .image {
-	height: 51em;
-}
-
-.sal {
-	width: 50em;
-	height: 33em;
+	width: 58em;
+	height: 35em;
 	margin-left: 5em;
 	border: 4px solid rgba(143, 141, 141, 0.3);
+	cursor: pointer;
+} */
+
+.peint {
+	width: 58em;
+	height: 35em;
+	margin-left: 5em;
+	border: 4px solid rgba(143, 141, 141, 0.3);
+	cursor: pointer;
 }
 
 .textim {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	font-size: 1.5em;
-	margin-left: 41em;
+	font-size: 2em;
+	display: flex;
+	justify-content: end;
 	margin-right: 1em;
-
-	width: 25em;
 }
 
 .prix {
@@ -88,7 +100,6 @@ h2 {
 	border: 2px solid black;
 	margin-top: 2em;
 	margin-left: 2em;
-	padding-right: 3em;
 }
 
 .btn {
@@ -105,11 +116,6 @@ h2 {
 footer {
 	background-color: rgb(255, 255, 255);
 	margin-top: 2em;
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border-top: 5px solid black;
 }
 
 .mentions {
@@ -135,18 +141,23 @@ footer {
 	margin-top: 3em;
 }
 
+footer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-top: 5px solid black;
+	margin-top: 5%;
+}
+
 @media (max-width: 480px) {
 	body {
 		display: flex;
 		flex-direction: column;
 	}
-	.langue {
-		background-color: yellow;
-	}
-	.catégories {
+	.logos {
+		background-color: purple;
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		font-size: 3px;
+		justify-content: baseline;
 	}
-} /*# sourceMappingURL=choixpeint.css.map */
+} /*# sourceMappingURL=choix.css.map */
