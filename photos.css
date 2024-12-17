@@ -125,6 +125,12 @@ h1 {
 	justify-content: center;
 	margin-right: 5%;
 }
+.cat2 {
+	display: flex;
+	justify-content: center;
+	margin-right: 5%;
+	border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+}
 
 h2 {
 	font-size: 2em;
@@ -209,11 +215,13 @@ h2 {
 } */
 
 .blueresto {
-	width: 44em;
-	height: 33em;
+	width: 40em;
+	height: 30em;
 	margin-left: 1em;
 	margin-top: 1em;
+
 	border: 2px solid black;
+	padding: 1em;
 }
 .texte3 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -232,12 +240,13 @@ h2 {
 } */
 
 .ram {
-	width: 30em;
-	height: 35em;
+	width: 40em;
+	height: 30em;
 	margin-right: 3em;
 	margin-left: 1em;
 	margin-top: 1em;
 	border: 2px solid black;
+	padding: 1em;
 }
 
 .texte4 {
@@ -267,7 +276,7 @@ h2 {
 } */
 
 .burden {
-	width: 38em;
+	width: 40em;
 	height: 30em;
 	margin-left: 1em;
 	margin-top: 1em;
@@ -291,7 +300,7 @@ h2 {
 
 .cabane {
 	width: 38em;
-	height: 35em;
+	height: 30em;
 	margin-right: 1em;
 	margin-left: 1em;
 	margin-top: 1em;
@@ -351,7 +360,7 @@ h2 {
 } */
 
 .canoe {
-	width: 32em;
+	width: 36em;
 	height: 39em;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -444,7 +453,7 @@ h2 {
 }
 
 .coven {
-	width: 32em;
+	width: 35em;
 	height: 38em;
 	margin-left: 1em;
 	margin-right: 2em;
@@ -464,8 +473,8 @@ h2 {
 }
 
 .LA {
-	width: 30em;
-	height: 20em;
+	width: 38em;
+	height: 25em;
 	margin-left: 1em;
 	margin-right: 2em;
 	margin-top: 1em;
@@ -496,7 +505,7 @@ h2 {
 }
 
 .jac {
-	width: 32em;
+	width: 38em;
 	height: 40em;
 	margin-right: 1em;
 	margin-left: 1em;
@@ -507,7 +516,71 @@ h2 {
 
 .por {
 	width: 38em;
-	height: 32em;
+	height: 28em;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	border: 2px solid black;
+	padding: 1em;
+}
+
+.range8 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 0.2em;
+	border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+	padding-bottom: 3em;
+	margin-left: 1em;
+	margin-right: 1em;
+	/* background-color: yellow; */
+}
+
+.lac {
+	width: 40em;
+	height: 30em;
+	margin-right: 1em;
+	margin-left: 1em;
+
+	border: 2px solid black;
+	padding: 1em;
+}
+
+.lov {
+	width: 38em;
+	height: 28em;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	border: 2px solid black;
+	padding: 1em;
+}
+
+.range9 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 0.2em;
+	border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+	padding-bottom: 3em;
+	margin-left: 1em;
+	margin-right: 1em;
+	/* background-color: yellow; */
+}
+
+.dea {
+	width: 45em;
+	height: 30em;
+	margin-right: 1em;
+	margin-left: 1em;
+
+	border: 2px solid black;
+	padding: 1em;
+}
+
+.fat {
+	width: 38em;
+	height: 28em;
 	margin-right: 1em;
 	margin-left: 1em;
 	margin-top: 1em;
