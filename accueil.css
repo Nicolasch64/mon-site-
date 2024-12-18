@@ -163,7 +163,7 @@ h2 {
 	margin-left: 1em;
 	margin-top: 0.5em;
 	width: 30em;
-	height: 30em;
+	height: 26em;
 }
 
 .texte {
@@ -299,18 +299,111 @@ footer {
 	margin-top: 5%;
 }
 
-@media (max-width: 480px) {
-	body {
-		display: flex;
-		flex-direction: column;
+@media (max-width: 600px) {
+	h1 {
+		font-size: 2em;
+		margin-left: 5%;
 	}
+
+	header {
+		height: 10em;
+	}
+
+	.globenomcontainer {
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.langue {
-		background-color: yellow;
+		margin-right: 0;
+		margin-top: 0;
+	}
+
+	.language-menu {
+		top: 50px;
+		right: 10px;
+		padding: 8px;
 	}
 	.catégories {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		font-size: 3px;
+		font-size: x-small;
 	}
-} /*# sourceMappingURL=accueil.css.map */
+	.cat1 {
+		justify-content: center;
+		margin-right: 0;
+		margin-top: 1em;
+	}
+	.bio {
+		font-size: small;
+		margin-left: 5em;
+		background-color: red;
+		display: none;
+	}
+	.image {
+		flex-direction: column;
+		margin-top: 2%;
+		height: auto;
+	}
+
+	.range,
+	.range2,
+	.range3 {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.range {
+		height: 50em;
+	}
+	.tupac {
+		width: 25em;
+		height: 20em;
+	}
+
+	.dive {
+		width: 80%;
+		height: auto;
+		margin: 10px 0;
+	}
+	.blueresto {
+		width: 25em;
+		height: 20em;
+	}
+	.texte,
+	.texte2,
+	.texte3,
+	.texte4 {
+		margin-left: 0;
+		font-size: 0.8em;
+	}
+
+	.asso1 {
+		width: 100%;
+		margin-left: 0;
+		opacity: 1;
+	}
+
+	.exp {
+		font-size: smaller;
+		margin-left: -4em;
+		height: 20em;
+	}
+	.VIEW {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	footer {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mentions {
+		margin-left: 0;
+		font-size: 0.4em;
+		text-align: center;
+	}
+
+	.mail {
+		margin-right: 0;
+	}
+}

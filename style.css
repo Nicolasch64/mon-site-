@@ -145,8 +145,8 @@ body {
 		border: 50px solid white;
 		margin-left: 1em;
 		margin-top: 0.5em;
-		width: 30em;
-		height: 30em;
+		width: 35em;
+		height: 28em;
 	}
 
 	.texte {
@@ -154,7 +154,7 @@ body {
 		font-weight: bold;
 		align-content: flex-end;
 		font-size: 0.75em;
-		margin-left: 70%;
+		margin-left: 50%;
 	}
 
 	.bre {
