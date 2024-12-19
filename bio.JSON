@@ -9,17 +9,17 @@
 	"photos": [
 		{
 			"src": "asset/expo/assaut1.jpg",
-			"alt": "Photo 1",
+			"alt": "Photo exposition Saint Etienne",
 			"description": "Vue d'exposition"
 		},
 		{
 			"src": "asset/expo/assaut2.jpg",
-			"alt": "Photo 2",
+			"alt": "Photo exposition Saint Etienne",
 			"description": "Vue d'exposition 2"
 		},
 		{
 			"src": "asset/expo/assaut3.jpg",
-			"alt": "Photo 3",
+			"alt": "Photo exposition Saint Etienne",
 			"description": "Vue d'exposition 3"
 		}
 	]
