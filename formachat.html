@@ -18,7 +18,7 @@
 						class="rept"
 				/></a>
 				<div class="product-details">
-					<h3>"Day of the Walking Dead" - Ink on Paper</h3>
+					<h3>"Day of the Walking Dead" - Ink on Paper 30x40cm</h3>
 					<p>Prix : 250 euros</p>
 				</div>
 			</div>
@@ -61,8 +61,7 @@
 					<select id="payment" name="payment" required>
 						<option value="" disabled selected>-- Payment method --</option>
 						<option value="credit_card">Credit card</option>
-						<option value="paypal">PayPal</option>
-						<option value="bank_transfer">Bank transfer</option>
+						<option value="paypal">PayPal/Stripe</option>
 					</select>
 				</div>
 
@@ -95,7 +94,7 @@
 				}
 
 				try {
-					const response = await fetch("http://localhost:5000/submit", {
+					const response = await fetch("http://localhost:5001/submit", {
 						method: "POST",
 						headers: {
 							"Content-Type": "application/json",
@@ -105,7 +104,7 @@
 							email,
 							address,
 							paymentMethod,
-
+							productName,
 							price,
 						}),
 					});
@@ -114,6 +113,9 @@
 
 					if (response.status === 200) {
 						alert(result.message);
+						const purchaseDate = new Date(result.date);
+						const formattedDate = purchaseDate.toLocaleString();
+						alert("Purchase Date: " + formattedDate);
 						loginForm.reset();
 					} else {
 						alert("Error submitting form: " + result.message);
