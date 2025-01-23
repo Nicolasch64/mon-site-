@@ -2,25 +2,25 @@
 	"biographie": {
 		"nom": "Chapelle Nicolas",
 
-		"description": "Je façonne ma démarche artistique autour de l’urbain dans sa définition la plus stricte : ce qui est relatif à la ville, ce qui lui appartient. Les agglomérations et leurs populations, l’habitat et sa sociologie, les moyens de transport, les zones pavillonnaires, les chantiers, la publicité, la pollution, les ruines, etc. Ainsi, tout ce qui compose l’architecture invisible des villes, des matériaux tels que la bâche et le grillage, m’inspire à la manière des artistes américains Oscar Tuazon ou David Hammons. Dans mes travaux de peinture, de photographie ou d’installation, j’interprète l’excès de signaux visuels et d’images dans nos villes et cela me rapproche de peintres tels que Michel Majerus, empruntant au registre d’une culture vernaculaire. La déambulation physique dans l’espace urbain a une importance majeure dans mon travail. J’utilise aussi la navigation virtuelle (Google Street View, Mappy, etc.) et ces captations d’images m’interrogent comme artiste et plus généralement : comment nous retrouver dans ces doubles du monde et leurs temporalités ? » — Nicolas Chapelle.",
+		"description": "I shape my artistic approach around the urban in its strictest definition: what is relative to the city, what belongs to it. Urban areas and their populations, housing and its sociology, means of transport, residential areas, construction sites, advertising, pollution, ruins, etc. Thus, everything that makes up the invisible architecture of cities, materials such as tarpaulins and fences, inspires me in the same way as American artists Oscar Tuazon or David Hammons. In my painting, photography or installation work, I interpret the excess of visual signals and images in our cities and this brings me closer to painters such as Michel Majerus, borrowing from the register of a vernacular culture. Physical wandering in urban space has a major importance in my work. I also use virtual navigation (Google Street View, Mappy, etc.) and these image captures question me as an artist and more generally: how can we find ourselves in these doubles of the world and their temporalities?» — Nicolas Chapelle.",
 
-		"parutions": "« Des toiles évoquant les intérieurs colorés d’appartements ou d’hôtels, des routes jalonnées de stations-service, çà et là des palmiers, une planche de surf appuyée au mur d’une boutique et des bords de mer où des chiens s’observent de loin… Les peintures de Nicolas Chapelle sont une invitation au voyage, sur un coup de tête, en forme de road movie sous un soleil énorme. » — Niko Rodamel"
+		"parutions": "« Canvases evoking the colorful interiors of apartments or hotels, roads dotted with gas stations, here and there palm trees, a surfboard leaning against the wall of a shop and seasides where dogs observe each other from afar... Nicolas Chapelle's paintings are an invitation to travel, on a whim, in the form of a road movie under an enormous sun. » — Niko Rodamel"
 	},
 	"photos": [
 		{
 			"src": "asset/expo/assaut1.jpg",
-			"alt": "Photo exposition Saint Etienne",
-			"description": "Vue d'exposition"
+			"alt": "exhibition view l'Assaut de la menuiserie  Saint Etienne",
+			"description": "exhibition view "
 		},
 		{
 			"src": "asset/expo/assaut2.jpg",
-			"alt": "Photo exposition Saint Etienne",
-			"description": "Vue d'exposition 2"
+			"alt": "exhibition view l'Assaut de la menuiserie  Saint Etienne",
+			"description": "exhibition view 2"
 		},
 		{
 			"src": "asset/expo/assaut3.jpg",
-			"alt": "Photo exposition Saint Etienne",
-			"description": "Vue d'exposition 3"
+			"alt": "exhibition view l'Assaut de la menuiserie  Saint Etienne",
+			"description": "exhibition view 3"
 		}
 	]
 }

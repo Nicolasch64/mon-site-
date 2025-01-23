@@ -41,6 +41,27 @@
 			margin-top: 20em;
 			color: gray;
 		}
+		#fullscreen-img {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.8);
+			display: none;
+			justify-content: center;
+			align-items: center;
+			z-index: 1000;
+		}
+
+		#fullscreen-img img {
+			max-width: 90%;
+			max-height: 90%;
+		}
+
+		#fullscreen-img.active {
+			display: flex;
+		}
 	</style>
 	<body>
 		<h1>BIOGRAPHY</h1>
@@ -50,7 +71,10 @@
 		<div id="photo-gallery"></div>
 
 		<button id="loadButton">Upload biography and photos</button>
+		<div id="fullscreen-img">
+			<img id="fullscreen-image" src="" alt="Image en plein écran" />
+		</div>
 
-		<script src="bio.Js"></script>
+		<script src="bio.js"></script>
 	</body>
 </html>

@@ -13,9 +13,6 @@ document.getElementById("loadButton").addEventListener("click", function () {
 function displayBio(bio) {
 	const bioElement = document.getElementById("bio");
 	bioElement.innerHTML = `
-        
-        
-        
         <p><strong>Description:</strong> ${bio.description}</p>
         <p><strong>parutions:</strong> ${bio.parutions}</p>
     `;
@@ -32,5 +29,20 @@ function displayPhotos(photos) {
             <p>${photo.description}</p>
         `;
 		photoGallery.appendChild(photoElement);
+
+		const img = photoElement.querySelector("img");
+		img.addEventListener("click", () => showFullScreenImage(photo.src));
+	});
+}
+
+function showFullScreenImage(src) {
+	const fullscreenImage = document.getElementById("fullscreen-image");
+	const fullscreenContainer = document.getElementById("fullscreen-img");
+
+	fullscreenImage.src = src;
+	fullscreenContainer.classList.add("active");
+
+	fullscreenContainer.addEventListener("click", function () {
+		fullscreenContainer.classList.remove("active");
 	});
 }
